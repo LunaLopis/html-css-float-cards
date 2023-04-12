@@ -41,7 +41,7 @@ body {
     color: white;
     width: 300px;
     float: left;
-    margin: 10px;
+    margin: 10px 10px 45px 10px;
     width: calc(100% / 3 - 20px);
     -webkit-box-shadow: 0 0 10px #686262;
     box-shadow: 0 0 10px #716969;
