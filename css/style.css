@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    padding: 10px;
+    margin: 10px 50px 50px 50px;
+}
+
+.title {
+    text-align: center;
+    margin: 0px 50px 0px 50px;
+    
+}
+
+.titolo {
+    color: rgba(229, 49, 112, 255);
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px; 
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+.team {
+    margin: 50px 50px 0px 50px;
+   
+}
+
+.team::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.conteiner {
+    background-color: black;
+    color: white;
+    width: 300px;
+    float: left;
+    margin: 10px;
+    width: calc(100% / 3 - 20px);
+    -webkit-box-shadow: 0 0 10px #686262;
+    box-shadow: 0 0 10px #716969;
+}
+
+.conteiner img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+}
+
+.conteiner ul {
+    list-style-type: none;
+    margin: 5px;
+}
+
+.conteiner li {
+padding: 5px;
+}
+
+.nome {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.email {
+    color: rgba(35, 157, 222, 255);
+}
